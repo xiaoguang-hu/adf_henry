@@ -79,5 +79,6 @@
 			}
 		],
 		"annotations": []
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
 }
