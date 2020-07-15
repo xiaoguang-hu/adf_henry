@@ -1,0 +1,25 @@
+{
+	"name": "dest_table",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Dest_database",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "varchar"
+			},
+			{
+				"name": "val",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "test"
+		}
+	}
+}
